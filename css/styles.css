@@ -79,8 +79,8 @@ color: var(--color-hover)
         line-height: 1.87;
         letter-spacing: 0.06em;
         color: #FFFFFF;
-   }
-
+        cursor: pointer;
+   } 
 
    /* Main */
 
@@ -123,5 +123,28 @@ color: var(--color-hover)
         background-color: #2F303A; 
    }
 
-   
+   /* Портфолио */
+.button-portfolio {
+cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--color-primary);
 
+
+}
+
+.title-procets{
+
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+
+.procets-text{
+
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--color-secondary);
+}
