@@ -1,0 +1,127 @@
+:root{
+--color-web: #2196F3;
+--color-primary: #212121;
+--color-hover: #2196F3;
+--color-secondary: #757575;
+
+}
+
+body{
+font-family: 'Roboto';
+letter-spacing: 0.03em;
+color: var(--color-primary)
+
+}
+
+/* Верх */
+.webstudio{
+
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: black;
+}
+
+.web{
+
+    color: var(--color-web);
+}
+
+.nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+
+}
+.nav .nav:hover,
+.nav .nav:focus 
+{
+color: var(--color-hover);
+}
+
+.contacts{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--color-secondary)
+        
+        
+}
+
+.contacts .contacts:hover,
+.contacts .contacts:focus{
+color: var(--color-hover)
+}
+
+/* Банер */
+   .title-baner{
+       font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #FFFFFF
+        
+   }
+
+   .banner{
+     background-color: #2F303A; 
+   }      
+
+
+   .button{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+   }
+
+
+   /* Main */
+
+   .title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+   }
+.title-section{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+}
+
+   .text{
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--color-secondary);
+
+   }
+
+   /* Низ */
+
+
+   .adress{
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 1.71;
+   }
+
+   .adress .adress:hover,
+   .adress   .adress:focus{
+       color: var(--color-hover)
+   }
+
+   .footer{
+        background-color: #2F303A; 
+   }
+
+   
+
