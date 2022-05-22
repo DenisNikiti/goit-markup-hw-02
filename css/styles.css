@@ -1,150 +1,181 @@
 :root{
---color-web: #2196F3;
---color-primary: #212121;
---color-hover: #2196F3;
---color-secondary: #757575;
+ --color-primaty: #757575;
+--color-blue: #2196F3;
+--color-secondary: #212121;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-primaty);
 
 }
 
-body{
-font-family: 'Roboto';
-letter-spacing: 0.03em;
-color: var(--color-primary)
-
+.link {
+    text-decoration: none;
+    color: inherit;
 }
 
-/* Верх */
-.webstudio{
+.list{
+    list-style: none;
+}
 
+ 
+ .link:hover,
+ .link:focus {
+     color: var(--color-blue);
+ }
+
+/* Логотип */
+
+
+.logo{
         font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        color: black;
+        color: var(--color-blue);
 }
 
-.web{
-
-    color: var(--color-web);
+.logo-black{
+color: var(--color-secondary);
 }
 
-.nav{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--color-primary);
-
-}
-.nav .nav:hover,
-.nav .nav:focus 
-{
-color: var(--color-hover);
+.logo-white {
+    color: #ffffff;
 }
 
-.contacts{
+
+
+
+/* Верх */
+ .nav{
+        color: var(--color-secondary);
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        color: var(--color-secondary)
-        
-        
-}
 
-.contacts .contacts:hover,
-.contacts .contacts:focus{
-color: var(--color-hover)
-}
+ }
 
-/* Банер */
-   .title-baner{
-       font-weight: 900;
+  .contacts {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+
+  }
+  
+
+  /* Баннер */
+
+  .banner {
+      background-color: #2F303A;;
+  }
+
+
+  .title-banner{
+        font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
-        letter-spacing: 0.06em;
         text-align: center;
-        color: #FFFFFF
-        
-   }
-
-   .banner{
-     background-color: #2F303A; 
-   }      
-
-
-   .button{
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.87;
         letter-spacing: 0.06em;
-        color: #FFFFFF;
-        cursor: pointer;
-   } 
+        text-transform: uppercase;
+        color: #ffffff;
+  }
 
-   /* Main */
+.button{
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: var(--color-blue);
 
-   .title{
+}
+
+
+/* Main */
+
+
+.title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-
-   }
-.title-section{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-secondary);
 
 }
 
-   .text{
+.title-section{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        color: var(--color-secondary);
+
+}
+
+.text-comand{
+        font-size: 16px;
+        line-height: 1.18;
+}
+
+
+/* Низ */
+
+.footer{
+
+    background-color: #2F303A;
+}
+
+.adress{
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    color: var(--color-secondary);
+    color: #ffffff;
 
-   }
+}
 
-   /* Низ */
+.contacts-foter{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+
+}
 
 
-   .adress{
-        color: #FFFFFF;
-        font-size: 14px;
-        line-height: 1.71;
-   }
 
-   .adress .adress:hover,
-   .adress   .adress:focus{
-       color: var(--color-hover)
-   }
+/* Портфолио */
 
-   .footer{
-        background-color: #2F303A; 
-   }
-
-   /* Портфолио */
-.button-portfolio {
-cursor: pointer;
+.button-portfolio{
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    color: var(--color-primary);
-
-
+     color: var(--color-secondary);
+     background-color: #F5F4FA;
+     cursor: pointer;
+    text-align: center;
 }
 
 .title-procets{
-
+        
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
-        letter-spacing: 0.06em;
+        color: var(--color-secondary);
 }
 
 .procets-text{
-
     font-size: 16px;
     line-height: 1.87;
-    color: var(--color-secondary);
+
 }
