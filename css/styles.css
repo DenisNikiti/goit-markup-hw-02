@@ -2,6 +2,9 @@
  --color-primaty: #757575;
 --color-blue: #2196F3;
 --color-secondary: #212121;
+--back-color: #2F303A;
+--color-link-footer:  rgba(255, 255, 255, 0.6);
+--color-adress: #ffffff;
 }
 
 body {
@@ -72,7 +75,7 @@ color: var(--color-secondary);
   /* Баннер */
 
   .banner {
-      background-color: #2F303A;;
+      background-color: var(--back-color);
   }
 
 
@@ -103,7 +106,11 @@ color: var(--color-secondary);
 
 /* Main */
 
+.title-hiden{
+ visibility: hidden;
 
+
+}
 .title{
     font-weight: 700;
     font-size: 14px;
@@ -132,23 +139,19 @@ color: var(--color-secondary);
 
 .footer{
 
-    background-color: #2F303A;
+    background-color: var(--back-color);
 }
 
 .adress{
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    color: #ffffff;
+    color: var(--color-adress);
 
 }
 
 .contacts-foter{
     font-weight: 400;
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-
+    color: var(--color-link-footer);
 }
 
 
@@ -173,6 +176,7 @@ color: var(--color-secondary);
         line-height: 2;
         color: var(--color-secondary);
 }
+
 
 .procets-text{
     font-size: 16px;
