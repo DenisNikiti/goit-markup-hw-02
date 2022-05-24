@@ -54,23 +54,21 @@ color: var(--color-secondary);
 
 
 /* Верх */
- .nav{
+
+
+.header{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+}
+
+ .nav-list{
         color: var(--color-secondary);
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+      
 
  }
 
-  .contacts {
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 16px;
-      letter-spacing: 0.02em;
-
-  }
-  
 
   /* Баннер */
 
@@ -86,7 +84,7 @@ color: var(--color-secondary);
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: #ffffff;
+        color: var(--color-adress);
   }
 
 .button{
@@ -111,11 +109,10 @@ color: var(--color-secondary);
 
 
 }
-.title{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
+.title-team{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
     color: var(--color-secondary);
 
 }
@@ -144,13 +141,16 @@ color: var(--color-secondary);
 
 .adress{
     font-style: normal;
-    color: var(--color-adress);
 
 }
 
+.adress-link{
+
+    color: var(--color-adress);
+}
+
 .contacts-foter{
-    font-weight: 400;
-    font-style: normal;
+    
     color: var(--color-link-footer);
 }
 
