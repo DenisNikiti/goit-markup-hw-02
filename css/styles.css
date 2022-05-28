@@ -104,8 +104,15 @@ color: var(--color-secondary);
 
 /* Main */
 
-.title-hiden{
- visibility: hidden;
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
 
 
 }
@@ -115,6 +122,15 @@ color: var(--color-secondary);
     line-height: 1.18;
     color: var(--color-secondary);
 
+}
+
+
+.title{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: var(--color-secondary);
 }
 
 .title-section{
